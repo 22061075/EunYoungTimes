@@ -1,0 +1,243 @@
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺︎'), url("../fonts/sf-pro-display_semibold.woff2") format("woff2");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:400;
+	src:local('☺︎'), url("../fonts/sf-pro-display_regular.woff2") format("woff2");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺︎'), url("../fonts/sf-pro-text_semibold.woff2") format("woff2");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:700;
+	src:local('☺︎'), url("../fonts/sf-pro-text_bold.woff2") format("woff2");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:400;
+	src:local('☺︎'), url("../fonts/sf-pro-text_regular.woff2") format("woff2");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺︎'), url("../fonts/SFProIcons_light.woff") format("woff");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺︎'), url("../fonts/SFProIcons_medium.woff") format("woff");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:400;
+	src:local('☺︎'), url("../fonts/SFProIcons_regular.woff") format("woff");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+#section4_border{
+    border-top: 1.9px solid #333;
+ border-bottom: 1.9px solid #333;
+ margin-top: 122px;
+}
+
+#section5_border{
+    border-top: 1.9px solid #333;
+    border-bottom: 1.9px solid #333;
+}
+
+
+
+#E{
+    margin: 10px 0 8px 2px;
+	font-size: 23px;
+}
+
+/* 섹션3 */
+
+
+.banner{overflow:hidden;position:relative;width:750px;height:750px;margin: -55px 0 0 500px;}
+.banner .banner-wrap{position:relative;width:100%;height:100%}
+.banner .banner-container{position:relative;width:6414px;height:100%}
+.banner .banner-container::after{content:'';display:block;position:relative;clear:both}
+.banner .banner-container .banner-item{display:-webkit-box;display:-ms-flex;display:flex;position:relative;float:left;width:1000px;height:424px;-webkit-box-orient:vertical;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.banner .banner-container .banner-item .image-area{position:absolute;width:100%;}
+.banner .banner-container .banner-item .image-area img{display:inline-block;width:750px;vertical-align:top;margin: 0 0 0 0px;}
+.banner .banner-container .banner-item .text-area{position:relative;width:100%;text-align:center;color:rgb(234, 0, 255);mix-blend-mode:hard-light}
+.banner .banner-container .banner-item .text-area .title{text-transform:capitalize;font-size:90px;font-weight:700;line-height:40px}
+.banner .banner-container .banner-item .text-area .title + .desc{margin-top:50px}
+.banner .banner-container .banner-item .text-area .desc{font-size:30px;font-weight:500;line-height:26px;margin-top:-200px}
+.bbb .paddle-nav button{position:absolute;z-index:50;top:2305px;width:70px;height:70px;margin-top:-231px;border-radius:52px;font-size:53px;font-weight:400;line-height:52px;background-color:transparent;color:rgba(95, 95, 95, 0.8);-webkit-transition:background-color 180ms ease-in-out}
+.bbb .paddle-nav button:hover{background-color:transparent}
+.bbb .paddle-nav button::after{display:inline-block;position:relative;text-decoration:none;color:inherit;font-family:'SF Pro Icons';font-size:150px;font-weight:inherit;font-style:normal;line-height:1;z-index:1}
+.bbb .paddle-nav button.disabled{display:none}
+.bbb .paddle-nav button.prev{left:425px}
+.bbb .paddle-nav button.next{right:464px}
+.bbb .paddle-nav button.prev::after{content:'';margin-left:-0.044em}
+.bbb .paddle-nav button.next::after{content:'';margin-right:-0.044em}
+ol, ul {
+	list-style: none;
+}
+
+#bannerText{
+    text-align: center;
+    margin: -300px 0 10px 0;
+}
+#slider_text{
+    font-size: 27px;
+    font-weight: 700;
+}
+#bannerText p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* 섹션4 */
+
+#scrollText1{
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(118, 86, 79);
+    /* border-bottom: 1.9px solid #333; */
+    padding-bottom: 20px;   
+	float: right;
+}
+
+
+
+
+
+
+/* 섹션5 */
+
+
+.E2{
+	margin-top: 10px !important;
+    border-top: 1.9px solid #333;
+	padding-top: 10px;
+}
+#section5_border img{
+    width: 480px;
+}
+#projectLeft{
+	width: 1200px;
+    border-bottom: 1.9px solid #333;
+	margin-top: -420px;
+	position: relative;
+	height: 400px;
+
+}
+#projectRight{
+	width: 600px;
+	height: 910px;
+    border-left: 1.9px solid #333;
+}
+
+#projectLeftImg{
+	position: absolute;
+	top:-27px;
+	left:50px;
+}
+#projectLeftImg1{
+	width: 500px !important;
+}
+#projectLeftImg2{
+	width: 500px !important;
+	padding-left: 50px;
+}
+#projectRightImg1{
+	padding-top: 15px;
+	padding-left: 50px;
+}
+
+
+
+#projectText1{
+	position: absolute;
+	top:260px
+}
+
+#projectText1 h4{
+    font-size: 27px;
+    font-weight: 700;
+	width: 1000px;
+	margin: 25px 0 10px 50px;
+}
+#projectText1 p{
+    font-size: 18px;
+    font-weight: 400;
+	width: 1050px;
+	text-align: justify;
+	margin-left: 50px;
+}
+
+
+.projectText h4{
+    font-size: 27px;
+    font-weight: 700;
+	width: 480px;
+	margin: 10px 0 10px 50px;
+}
+.projectText p{
+    font-size: 18px;
+    font-weight: 400;
+	width: 480px;
+	text-align: justify;
+	margin-left: 50px;
+}
+
+
+
+
+#projectBottom{
+	float: left;
+	margin-top: -374px;
+	height: 286px;
+}
+
+#projectBottom_1{
+	width: 580px;
+	height: 465px;
+    border-right: 1.9px solid #333;
+}
+#projectBottom_2{
+	width: 580px;
+	height: 490px;
+	padding-top: 35px;
+}
+#projectBottomImg1{
+	padding: 20px 0 0 50px;
+}
+#projectBottomImg2{
+	padding: 12px 0 0 50px;
+}
+#projectText3{
+	padding-top: 15px;
+}
+#projectText2{
+	padding-top: 15px;
+}
